@@ -1,0 +1,1 @@
+basic mandelbrot animation, use arrow keys to navigate and keys I, O to zoom in or out respectively. Can't achieve great zoom due to float precision limit.

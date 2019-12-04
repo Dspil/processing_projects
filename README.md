@@ -1,2 +1,2 @@
-# dodge
-Game in processing
+# Processing projects
+Random ideas developed using processing

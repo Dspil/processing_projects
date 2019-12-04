@@ -1,0 +1,6 @@
+Cells (depicted as circles) eat food (depicted as squares) to grow
+Each cell has a velocity, a mature point (in which it can grow) and other characteristics.
+If eaten well, the cell will bisect passing his characteristics to the successors with a random mutation.
+An evolutionary behaviour in the key cell characteristics can be observed.
+There are also viruses (triangles) which infect cells and reproduce after their death and T-cells that eradicate viruses.
+One can pause using the key P and after pause can view graphs using the key G
