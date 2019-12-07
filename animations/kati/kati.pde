@@ -12,6 +12,7 @@ float increase = 0.05;
 float decrease = 1.3;
 float acceleration2 = 3;
 float base = 2;
+boolean TRACE = true;
 
 void setup() {
   size(displayWidth, displayHeight);
@@ -38,7 +39,14 @@ void populate(int d, int index) {
 }
 
 void draw() {
-  background(0);
+  if (TRACE) {
+      fill(0, 20);
+      rectMode(CORNERS);
+      rect(-1, -1, width+1, height+1);
+  }
+  else {
+    background(0);
+  }
   for (int i = 0; i < depth; i++) {
     for (int j = 0; j < points.size(); j++) {
       if (i == points.get(j).d) {
